@@ -11,7 +11,7 @@
             "flex-layout.col#service-8"
         ],
         "props": {
-            "blockClass": ["wrap", "bgc-gray"],
+            "blockClass": ["wrap", "bgc-gray", "services"],
             "paddingTop": 6,
             "paddingBottom": 8,
             "horizontalAlign": "center"

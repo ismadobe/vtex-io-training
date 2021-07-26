@@ -6,10 +6,16 @@
     flex-wrap: wrap;
 }
 
-/*
-    Establece el fondo de color negro en el footer
-    El color de texto blanco se establece en la propiedad textColor en el bloque rich-text#copyright
-*/
+/* Establecen los colores de fondo transversales en la pagina */
 .flexRow--bgc-black {
     background-color: #000;
+}
+
+.flexRow--bgc-gray {
+    background-color: #e6e6e6;
+}
+
+/* Permite que la columna 5 a la 8 tengan un espacio en la parte de arriba */
+.flexRowContent--services .stretchChildrenWidth:nth-child(n+5) {
+    margin-top: 40px;
 }

@@ -1,0 +1,9 @@
+:global(.vtex-sticky-layout-0-x-container) > div {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) > div {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%);
+    background: #fff;
+}

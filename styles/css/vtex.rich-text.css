@@ -2,3 +2,25 @@
     max-width: 770px;
     margin: 0 auto;
 }
+
+.link--decoration-none {
+    text-decoration: none;
+}
+
+.link--uppercase {
+    text-transform: uppercase;
+}
+
+.link--btn-black {
+    background-color: #2a2a2a;
+    padding: 14px 20px;
+    border-radius: 2em;
+    font-size: 14px;
+    color: #fff;
+    transition: 0.25s all ease;
+}
+
+.link--btn-black:hover {
+    background-color: #fff;
+    color: #2a2a2a;
+}

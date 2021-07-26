@@ -26,13 +26,13 @@
         },
         {
             "ns": {
-                "value": 40,
+                "value": 45,
                 "minWidth": true
             }
         },
         {
             "m": {
-                "value": 40,
+                "value": 60,
                 "minWidth": true
             }
         },
@@ -220,7 +220,7 @@
             "muted-5": "#f2f4f5"
         },
         "on": {
-            "base": "#3f3f40",
+            "base": "#626262",
             "base--inverted": "#ffffff",
             "action-primary": "#ffffff",
             "action-secondary": "#0F3E99",
@@ -236,7 +236,8 @@
             "muted-2": "#ffffff",
             "muted-3": "#3f3f40",
             "muted-4": "#3f3f40",
-            "muted-5": "#3f3f40"
+            "muted-5": "#3f3f40",
+            "black": "#000000"
         },
         "hover-on": {
             "action-primary": "#ffffff",

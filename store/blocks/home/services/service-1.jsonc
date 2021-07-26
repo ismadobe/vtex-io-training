@@ -14,7 +14,8 @@
             "text": "Servicios",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "font": "t-heading-2"
+            "font": "t-heading-2",
+            "textColor": "c-on-black"
         }
     },
     "rich-text#service-subtitle": {
