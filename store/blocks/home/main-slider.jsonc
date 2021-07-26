@@ -1,14 +1,4 @@
 {
-    "flex-layout.row#main-slider": {
-        "children": [
-            "slider-layout#main-slider"
-        ],
-        "props": {
-            "blockClass": [
-                "no-container" // esta clase probablemente le ayude a resolver uno de los puntos del reto del día 1
-            ]
-        }
-    },
     "slider-layout#main-slider": {
         "props": {
             "itemsPerPage": {

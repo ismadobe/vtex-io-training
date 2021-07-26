@@ -1,7 +1,7 @@
 {
     "store.home": {
         "blocks": [
-            "flex-layout.row#main-slider",
+            "slider-layout#main-slider",
             "flex-layout.row#copy",
 
             // partners
