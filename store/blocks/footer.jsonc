@@ -4,26 +4,43 @@
     },
     "footer-layout.desktop": {
         "children": [
-            "flex-layout.row#footer"
+            "flex-layout.row#footer-desktop"
         ]
     },
     "footer-layout.mobile": {
         "children": [
-            "flex-layout.row#footer"
+            "flex-layout.row#footer-mobile"
         ]
     },
-    "flex-layout.row#footer": {
+    "flex-layout.row#footer-desktop": {
         "children": [
-            "rich-text#copyright"
+            "rich-text#copyright-desktop"
         ],
         "props": {
             "marginTop": 8,
             "blockClass": ["black"] // permite colocar el color de fondo en negro vtex.flex-layout.css
         }
     },
-    "rich-text#copyright": {
+    "rich-text#copyright-desktop": {
         "props": {
             "text": "**Derechos reservados BlackSip® © 2017 BlackSip.**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-emphasis" // color blanco establecido en style.config linea 227
+        }
+    },
+    "flex-layout.row#footer-mobile": {
+        "children": [
+            "rich-text#copyright-mobile"
+        ],
+        "props": {
+            "marginTop": 8,
+            "blockClass": ["black"] // permite colocar el color de fondo en negro vtex.flex-layout.css
+        }
+    },
+    "rich-text#copyright-mobile": {
+        "props": {
+            "text": "**Derechos reservados BlackSip**",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "textColor": "c-on-emphasis" // color blanco establecido en style.config linea 227
