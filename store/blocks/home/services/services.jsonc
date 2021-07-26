@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#services": {
+        "children": [
+            "flex-layout.col#service-1",
+            "flex-layout.col#service-2",
+            "flex-layout.col#service-3",
+            "flex-layout.col#service-4",
+            "flex-layout.col#service-5",
+            "flex-layout.col#service-6",
+            "flex-layout.col#service-7",
+            "flex-layout.col#service-8"
+        ],
+        "props": {
+            "blockClass": ["wrap", "bgc-gray"],
+            "paddingTop": 6,
+            "paddingBottom": 8,
+            "horizontalAlign": "center"
+        },
+        "title": "Services"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "flex-layout.col#service-1": {
+        "children": [
+            "rich-text#service-title",
+            "rich-text#service-subtitle"
+        ],
+        "props": {
+            "width": "25%"
+        },
+        "title": "Service 1"
+    },
+    "rich-text#service-title": {
+        "props": {
+            "text": "Servicios",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-2"
+        }
+    },
+    "rich-text#service-subtitle": {
+        "props": {
+            "text": "En BlackSip somos expertos regionales en lograr resultados enfocados a la innovación tecnológica, con el fin de lograr que contamos con los siguientes 7 servicios:",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

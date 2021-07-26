@@ -1,0 +1,34 @@
+{
+    "flex-layout.col#service-8": {
+        "children": [
+            "image#service-8",
+            "rich-text#service-8",
+            "rich-text#service-link-8"
+        ],
+        "props": {
+            "width": "25%"
+        },
+        "title": "Service 8"
+    },
+    "image#service-8": {
+        "props": {
+            "src": "assets/home/services/iconos-serv7.png",
+            "maxHeight": "",
+            "blockClass": "service"
+        }
+    },
+    "rich-text#service-8": {
+        "props": {
+            "text": "**Data \n analytics**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#service-link-8": {
+        "props": {
+            "text": "[+ Información](https://blacksip.com)",
+            "textPosition": "CENTER",
+            "blockClass": ["btn", "btn-black", "uppercase", "decoration-none"]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "flex-layout.col#service-4": {
+        "children": [
+            "image#service-4",
+            "rich-text#service-4",
+            "rich-text#service-link-4"
+        ],
+        "props": {
+            "width": "25%"
+        },
+        "title": "Service 4"
+    },
+    "image#service-4": {
+        "props": {
+            "src": "assets/home/services/iconos-serv2.png",
+            "maxHeight": 140,
+            "blockClass": "service"
+        }
+    },
+    "rich-text#service-4": {
+        "props": {
+            "text": "**Marketing \ndigital**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#service-link-4": {
+        "props": {
+            "text": "[+ Información](https://blacksip.com)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": ["btn", "btn-black", "uppercase", "decoration-none"]
+        }
+    }
+}

@@ -10,7 +10,10 @@
             // .tablet > 640 < 1024   Solo tablets
             // .desktop > 1024        Solo desktop
             "responsive-layout.desktop#partners",
-            "responsive-layout.mobile#partners"
+            "responsive-layout.mobile#partners",
+
+            // services
+            "flex-layout.row#services"
         ]
     },
     "flex-layout.row#copy": {
