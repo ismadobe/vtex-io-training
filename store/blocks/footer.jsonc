@@ -18,7 +18,7 @@
         ],
         "props": {
             "marginTop": 8,
-            "blockClass": ["black"] // permite colocar el color de fondo en negro vtex.flex-layout.css
+            "blockClass": ["bgc-black"] // permite colocar el color de fondo en negro vtex.flex-layout.css
         }
     },
     "rich-text#copyright-desktop": {
@@ -35,7 +35,7 @@
         ],
         "props": {
             "marginTop": 8,
-            "blockClass": ["black"] // permite colocar el color de fondo en negro vtex.flex-layout.css
+            "blockClass": ["bgc-black"] // permite colocar el color de fondo en negro vtex.flex-layout.css
         }
     },
     "rich-text#copyright-mobile": {
