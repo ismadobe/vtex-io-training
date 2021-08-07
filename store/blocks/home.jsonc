@@ -13,7 +13,10 @@
             "responsive-layout.mobile#partners",
 
             // services
-            "flex-layout.row#services"
+            "flex-layout.row#services",
+
+            // recommended products
+            "flex-layout.row#recommended-products"
         ]
     },
     "flex-layout.row#copy": {
